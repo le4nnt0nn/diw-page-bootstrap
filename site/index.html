@@ -7,15 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/home.css">
     <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+        integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>Burgetiel | Discover the real taste</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.ico">
 </head>
 
 <body class="container-fluid">
+    <!--nav-menu-->
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
         <span class="mr-md-auto"><a class="navbar-brand" href="#"><img src="./img/logo.png"
                     style="width: 60px;"></img></a></span>
@@ -28,14 +36,13 @@
             </ul>
         </nav>
     </div>
-    <!--
-<a href="#"></a>
--->
+    
+    <!--content-->
     <div id="content">
         <!--section-2-->
         <div class="section-2 pb-md-3">
             <div class="section-2-title text-center">
-                <h2 class="text-burger">Burgetiel</h2>
+                <img class="section-2-title-img m-4" src="./img/burgetiel.png">
             </div>
             <div class="section-2-text pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
                 <h1 class="section-2-text-title text-ketchup">No-Hungry Zone</h1>
@@ -54,10 +61,42 @@
             <div class="section-2-button text-center">
                 <button class="section-2-button-btn">About us</button>
             </div>
+            <!--separator-->
+            <div class="row section-2-separator d-none d-lg-block d-lg-flex m-4 text-center">
+                <div class="col-3 bg-warning"></div>
+                <div class="col-6 bg-dark text-burger section-2-separator-text">⚠️ Do not cross, only burgers ⚠️</div>
+                <div class="col-3 bg-warning"></div>
+            </div>
+            <!--carousel-->
+            <div class="section-2-carousel m-5 d-none d-lg-block">
+                <div id="demo" class="carousel slide" data-mdb-interval="10000" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item text-center active">
+                        <img src="./img/ad1.png" class="w-75" alt="Ad1">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="./img/ad2.png" class="w-75" alt="Ad2">
+                      </div>
+                      <div class="carousel-item text-center">
+                        <img src="./img/ad3.png" class="w-75" alt="Ad3">
+                      </div>
+                    </div>
+                  
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  
+                  </div>
+            </div>
         </div>
+
         <!--section-3-->
         <div class="section-3 pt-3">
-            <div class="section-2-text pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <div class="section-3-text justify-content-center pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
                 <h1 class="section-3-text-title text-ketchup">The Top Burgers</h1>
                 <h3 class="section-3-text-subtext lead text-white">Mmmmmm... Let´s try them!</h3>
                 <div class="section-3-cards card-group d-flex d-inline-flex">
@@ -69,7 +108,8 @@
                     <div class="section-3-card card bg-dark text-center">
                         <img class="card-img-top" src="./img/b2.png">
                         <h3>Cockatiel</h3>
-                        <p>House made Guava BBQ sauce and large Maui onion ring with cheddar cheese and a blanket of bacon</p>
+                        <p>House made Guava BBQ sauce and large Maui onion ring with cheddar cheese and a blanket of
+                            bacon</p>
                     </div>
                     <div class="section-3-card card bg-dark text-center">
                         <img class="card-img-top" src="./img/b2.png">
@@ -79,20 +119,28 @@
                 </div>
             </div>
         </div>
+
         <!--section-4-->
-        <div class="section-4">
-            <div class="section-4-review col-12 bg-dark text-center">
-                <h3 class="section-4-review-text">An amazing place, awesome burgers!</h3>
-                <p class="section-4-review-subtext"> - Alberto Chicote</p>
-                <p class="section-4-stars">
-                    <i class="fas fa-star text-light"></i>
-                    <i class="fas fa-star text-light"></i>
-                    <i class="fas fa-star text-light"></i>
-                    <i class="fas fa-star text-light"></i>
-                    <i class="fas fa-star text-light"></i>
-                </p>
+        <div class="section-4 d-inline pricing-header justify-content-center">
+            <h1 class="section-4-text-title text-ketchup px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">Some delicius
+                reviews</h1>
+            <div class="section-4-review m-5 mx-auto col-12 bg-dark text-center">
+                <div class="section-4-review-content p-4">
+                    <h3 class="section-4-review-content-text text-light">An amazing place, awesome burgers!</h3>
+                    <p class="section-4-review-content-subtext text-burger"> - Alberto Chicote</p>
+                    <p class="section-4-review-content-stars">
+                        <i class="fas fa-star text-light"></i>
+                        <i class="fas fa-star text-light"></i>
+                        <i class="fas fa-star text-light"></i>
+                        <i class="fas fa-star text-light"></i>
+                        <i class="fas fa-star text-light"></i>
+                    </p>
+                </div>
             </div>
         </div>
+
+
+
         <!--footer-->
         <footer>
             <div class="row justify-content-center pt-5 row-2 px-3 text-info">
@@ -103,23 +151,23 @@
                         </div>
                         <div class="col-sm-3 my-sm-0 mt-5">
                             <ul class="list-unstyled">
-                                <li><a href="#">Platform</a></li>
+                                <li><a href="#">Contact</a></li>
                                 <li><a href="#">Help Center</a></li>
-                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Alimentary Advices</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-3 mt-4">
                             <ul class="list-unstyled">
-                                <li><a href="#">Customers</a></li>
-                                <li><a href="#">Use Cases</a></li>
-                                <li><a href="#">Customers Services</a></li>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Order Now</a></li>
+                                <li><a href="#">Best customers</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-3 mt-5">
                             <ul class="list-unstyled">
                                 <li><a href="#">Company</a></li>
                                 <li><a href="#">About</a></li>
-                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Dreams</a></li>
                             </ul>
                         </div>
                     </div>
@@ -131,7 +179,10 @@
                         <div class="col-sm-3 col-auto text-center"><small>&#9400; Burgetiel</small></div>
                         <div class="col-md-3 col-auto "></div>
                         <div class="col-md-3 col-auto"></div>
-                        <div class="col text-md-left text-right"> <small> infoeat@burgetiel.com <span><img src="https://i.imgur.com/TtB6MDc.png" class="img-fluid " width="25"></span> <span><img src="https://i.imgur.com/N90KDYM.png" class="img-fluid " width="25"></span></small> </div>
+                        <div class="col text-md-left text-right"> <small> infoeat@burgetiel.com <span><img
+                                        src="https://i.imgur.com/TtB6MDc.png" class="img-fluid " width="25"></span>
+                                <span><img src="https://i.imgur.com/N90KDYM.png" class="img-fluid "
+                                        width="25"></span></small> </div>
                     </div>
                 </div>
             </div>

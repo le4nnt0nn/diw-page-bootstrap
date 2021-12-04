@@ -38,6 +38,10 @@
 
 /*Section2 styles*/
 
+.section-2-title-img {
+  width: 200px;
+}
+
 .section-2-text {
   width: 1hv;
 }
@@ -50,6 +54,10 @@
   border: none;
   color: #1a1a1a;
   background-color: #C4C4C4;
+}
+
+.section-2-separator-text {
+  font-size: 20px;
 }
 
 .section-2-img {
