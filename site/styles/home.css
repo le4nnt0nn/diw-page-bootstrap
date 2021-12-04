@@ -19,6 +19,10 @@
   background-repeat: no-repeat;
 }
 
+.bg-silver {
+  background-color: rgb(179, 179, 179);
+}
+
 /*Custom colors end*/
 
 .container-fluid {
