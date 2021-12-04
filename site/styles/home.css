@@ -14,6 +14,11 @@
   color: #FF6B6B;
 }
 
+.bg-notcross {
+  background-image: url('../img/nocross.png');
+  background-repeat: no-repeat;
+}
+
 /*Custom colors end*/
 
 .container-fluid {
@@ -30,6 +35,18 @@
   font-size: 20px;
   color: azure;
   padding: 10px;
+}
+
+@media only screen and (max-width: 380px) {
+  .nav a {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav a {
+    font-size: 12px;
+  }
 }
 
 .nav a:hover {
@@ -57,7 +74,7 @@
 }
 
 .section-2-separator-text {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .section-2-img {
@@ -76,6 +93,12 @@
   margin: 50px;
 }
 
+@media only screen and (max-width: 450px) {
+  .section-3-card {
+    width: 10rem;
+  }
+}
+
 .section-3-card:hover  {
   opacity: 0.7;
   -webkit-transform:scale(1.15);
@@ -91,6 +114,11 @@
 
 .section-3-card p{
   color: #b9b9b9;
+}
+
+.section-4-review-content-image {
+  border-radius: 100%;
+  width: 200px;
 }
 
 footer li a{
