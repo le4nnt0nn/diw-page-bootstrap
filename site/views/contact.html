@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/contact.css">
     <!-- Bootstrap CSS -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
         integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
@@ -39,8 +40,39 @@
     
     <!--content-->
     <div id="content">
-        
 
+        <!--title-->
+        <div class="content-title">
+            <h1 class="text-ketchup text-center m-5">Send us your delicious feedback! <span class="text-burger">Contact us</span></h1>
+        </div>
+
+        <!--form-->
+        <div class="section-form">
+            <form>
+                <!--name input-->
+                <div class="form-outline row mb-4 mt-2">
+                    <input type="name" id="form-name" placeholder="Name" class="form-control" />
+                </div>
+                
+                <!--email input -->
+                <div class="form-outline row mb-4">
+                    <input type="email" id="form-email" placeholder="Email address" class="form-control" />
+                </div>
+
+                <!--message input -->
+                <div class="form-outline row mb-4">
+                    <textarea class="form-control" id="form-text" placeholder="Message" rows="4"></textarea>
+                </div>
+
+                <!--submit button -->
+                <button type="submit" class="form-btn btn-block mb-2">Send</button>
+            </form>
+        </div>
+
+        <!--img-->
+        <div class="content-img text-center m-5">
+            <img src="../img/cockatielContact.png">
+        </div>
 
         <!--footer-->
         <footer>
