@@ -1,26 +1,44 @@
+/*form styles*/
+
 .section-form {
-    margin: 0 auto;
-    width: 1000px;
-    text-align: center;
-    padding: 30px;
-    background-color: rgb(221, 221, 221);
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(221, 221, 221);
 }
 
 #form-text {
-    resize: none;
+  resize: none;
 }
 
 .form-btn {
-    color: #fff;
-    font-size: 20px;
-    padding: 10px;
-    background-color: rgb(228, 107, 107);
-    border: none;
-    border-radius: 5px;
-    transition: all .3s ease;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  background-color: rgb(228, 107, 107);
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
 
 .form-btn:hover {
-    transition: all .3s ease;
-    background-color: rgb(177, 23, 23);
+  transition: all 0.3s ease;
+  background-color: rgb(177, 23, 23);
+}
+
+/*Responsive form*/
+
+@media screen and (max-width: 600px) {
+  .section-form {
+    width: 70%;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-form {
+    width: 80%;
+    margin-top: 0;
+  }
 }
