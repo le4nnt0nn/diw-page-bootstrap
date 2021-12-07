@@ -121,10 +121,14 @@
   padding: 10px;
 }
 
+/*Section4 styles*/
+
 .section-4-review-content-image {
   border-radius: 100%;
   width: 200px;
 }
+
+/*Footer styles*/
 
 footer li a{
   color: #C4C4C4;
