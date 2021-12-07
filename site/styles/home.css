@@ -23,6 +23,10 @@
   background-color: rgb(179, 179, 179);
 }
 
+.bg-med-dark {
+  background-color: rgb(61, 61, 61);
+}
+
 /*Custom colors end*/
 
 .container-fluid {
