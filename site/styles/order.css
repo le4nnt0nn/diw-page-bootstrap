@@ -1,5 +1,18 @@
 /*Style for order card*/
 
+.order-content {
+    background-image: url('../img/order-background.jpg');
+}
+
+.order-content-text h1 {
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.order-content-text h1 span {
+    opacity: initial;
+}
+
 .order-content-card {
     margin: 30px;
 }
