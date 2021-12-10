@@ -81,6 +81,17 @@
   background-color: #C4C4C4;
 }
 
+.section-2-button-btn a{
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.section-2-button-btn a:hover{
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+
 .section-2-separator-text {
   font-size: 28px;
 }

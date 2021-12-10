@@ -1,0 +1,9 @@
+.history-container-subtext p {
+    font-size: 20px;
+}
+
+.history-container-img img {
+    border: 10px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+}
