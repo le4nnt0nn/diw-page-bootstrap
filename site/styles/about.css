@@ -1,3 +1,4 @@
+/*history content*/
 .history-container-subtext p {
     font-size: 20px;
 }
@@ -7,6 +8,8 @@
     border-radius: 10px;
     box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.75);
 }
+
+/*extra responsives*/
 
 @media only screen and (max-width: 424px) {
     .history-container-img img {
