@@ -27,6 +27,10 @@
   background-color: rgb(177, 23, 23);
 }
 
+.form-group a:hover {
+  text-decoration: none;
+}
+
 /*Map styles*/
 
 .map-content {
